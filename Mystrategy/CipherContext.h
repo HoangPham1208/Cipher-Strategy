@@ -5,7 +5,7 @@
 template <typename T>
 class CipherContext
 {
-    private:
+    public:
         CipherStrategy<T>* strategy;
         T key;
     public:
