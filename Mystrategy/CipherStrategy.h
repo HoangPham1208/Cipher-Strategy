@@ -6,7 +6,7 @@
 template <typename T>
 class CipherStrategy
 {
-protected:
+public:
     T key;
 public:
     CipherStrategy();
