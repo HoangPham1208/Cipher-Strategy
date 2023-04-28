@@ -7,8 +7,6 @@ template <typename T>
 class CipherStrategy
 {
 public:
-    T key;
-public:
     CipherStrategy();
     virtual ~CipherStrategy();
 

@@ -6,6 +6,8 @@
 
 class Caesar : public CipherStrategy<int>
 {
+private:
+    int key;
 public:
     Caesar();
     ~Caesar();

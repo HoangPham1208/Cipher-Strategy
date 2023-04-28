@@ -4,6 +4,8 @@
 #include "CipherStrategy.h"
 
 class Vigenere : public CipherStrategy<std::string> {
+private:
+    std::string key;
 public:
     Vigenere();
     ~Vigenere();

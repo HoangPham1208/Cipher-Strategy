@@ -4,6 +4,8 @@
 #include "CipherStrategy.h"
 
 class Transposition : public CipherStrategy<std::string> {
+private:
+    std::string key;
 public:
     Transposition();
     ~Transposition();
